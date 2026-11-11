@@ -1,0 +1,9 @@
+flowchart LR
+    A[Transactions CSV] --> C[Apache Beam Pipeline]
+    B[Customers CSV] --> C
+    C --> D[Normalize and Validate]
+    D -->|Valid| E[Deduplicate and Enrich]
+    D -->|Invalid| F[Rejected Records]
+    E --> G[Curated JSONL]
+    G --> H[BigQuery Analytics Table]
+    H --> I[SQL Reporting and BI]

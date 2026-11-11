@@ -1,0 +1,10 @@
+transaction_id,customer_id,transaction_ts,amount,currency,country,category
+T1001,C001,2026-10-20T10:30:00Z,1250.00,USD,us,software
+T1002,C002,2026-10-20T11:15:00Z,4500.00,INR,in,retail
+T1003,C003,2026-10-20T12:00:00Z,89.50,EUR,de,subscription
+T1004,C001,2026-10-21T09:10:00Z,250.00,USD,us,cloud
+T1005,C004,2026-10-21T13:45:00Z,120.00,GBP,gb,services
+T1002,C002,2026-10-20T11:15:00Z,4500.00,INR,in,retail
+T1006,C999,2026-10-22T08:00:00Z,-15.00,USD,us,refund
+T1007,C003,not-a-date,30.00,USD,de,subscription
+T1008,C002,2026-10-22T10:00:00Z,75.00,CAD,ca,hardware
